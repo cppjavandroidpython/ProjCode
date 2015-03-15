@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+    <dict>
+        <key>ROOT</key>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>179</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>Cactus</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>180</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-80.000000,-96.000000}</string>
+                        <string>{82.000000,-96.000000}</string>
+                        <string>{82.000000,98.000000}</string>
+                        <string>{-80.000000,98.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>181</string>
+                </dict>
+                <key>Health</key>
+                <dict>
+                    <key>value</key>
+                    <string>10.000000</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>222</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>a1</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>223</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-41.000000,-60.000000}</string>
+                        <string>{32.000000,-60.000000}</string>
+                        <string>{32.000000,39.000000}</string>
+                        <string>{-41.000000,39.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>224</string>
+                </dict>
+                <key>Defeated Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>368</string>
+                </dict>
+                <key>Death Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1685</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>231</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>Villain Bullet</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>232</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-41.000000,-9.000000}</string>
+                        <string>{42.000000,-9.000000}</string>
+                        <string>{42.000000,9.000000}</string>
+                        <string>{-41.000000,9.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>233</string>
+                </dict>
+                <key>Death Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1721</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>252</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>a1</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>253</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-121.000000,-38.000000}</string>
+                        <string>{59.000000,-38.000000}</string>
+                        <string>{59.000000,38.000000}</string>
+                        <string>{-121.000000,38.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>254</string>
+                </dict>
+                <key>Defeated Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>398</string>
+                </dict>
+                <key>Death Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1726</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>261</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>SpikedBall</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>262</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-86.000000,-86.000000}</string>
+                        <string>{86.000000,-86.000000}</string>
+                        <string>{86.000000,86.000000}</string>
+                        <string>{-86.000000,86.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>263</string>
+                </dict>
+                <key>Defeated Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>412</string>
+                </dict>
+                <key>Death Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1732</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>374</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>Hero Bullet</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>375</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-41.000000,-9.000000}</string>
+                        <string>{42.000000,-9.000000}</string>
+                        <string>{42.000000,9.000000}</string>
+                        <string>{-41.000000,9.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>376</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>451</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>PlatformBox-A</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>452</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-75.000000,-77.000000}</string>
+                        <string>{75.000000,-77.000000}</string>
+                        <string>{75.000000,78.000000}</string>
+                        <string>{-75.000000,78.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>453</string>
+                </dict>
+                <key>Idle Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1750</string>
+                </dict>
+                <key>Death Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1749</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>661</string>
+                <key>className</key>
+                <string>PTModelAssetObstacle</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>a1</string>
+                </dict>
+                <key>Collision Shape</key>
+                <dict>
+                    <key>id</key>
+                    <string>662</string>
+                    <key>className</key>
+                    <string>PTModelPolygon</string>
+                    <key>points</key>
+                    <array>
+                        <string>{-101.000000,-75.000000}</string>
+                        <string>{101.000000,-75.000000}</string>
+                        <string>{101.000000,77.000000}</string>
+                        <string>{-101.000000,77.000000}</string>
+                    </array>
+                    <key>oneWayCollisionVector</key>
+                    <string>{0.000000,0.000000}</string>
+                    <key>shapeType</key>
+                    <string>1</string>
+                </dict>
+                <key>Idle Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>663</string>
+                </dict>
+                <key>Defeated Animation</key>
+                <dict>
+                    <key>value</key>
+                    <string>674</string>
+                </dict>
+                <key>Idle Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1784</string>
+                </dict>
+                <key>Death Sound</key>
+                <dict>
+                    <key>value</key>
+                    <string>1785</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>

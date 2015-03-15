@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+    <dict>
+        <key>ROOT</key>
+        <array>
+            <dict>
+                <key>id</key>
+                <string>1</string>
+                <key>className</key>
+                <string>PTModelGeneralSettings</string>
+                <key>Name</key>
+                <dict>
+                    <key>visible</key>
+                    <string>0</string>
+                </dict>
+                <key>Icon</key>
+                <dict>
+                    <key>value</key>
+                    <string>3931</string>
+                </dict>
+                <key>Game Preset</key>
+                <dict>
+                    <key>value</key>
+                    <string>&lt;Custom&gt;</string>
+                </dict>
+                <key>Fixed Position</key>
+                <dict>
+                    <key>value</key>
+                    <string>1</string>
+                </dict>
+                <key>Fixed Rotation</key>
+                <dict>
+                    <key>value</key>
+                    <string>1</string>
+                </dict>
+                <key>Move Speed</key>
+                <dict>
+                    <key>value</key>
+                    <string>{15.000,15.000}</string>
+                </dict>
+                <key>Jump</key>
+                <dict>
+                    <key>value</key>
+                    <string>{0.000,0.000}</string>
+                </dict>
+                <key>Jump Timeout</key>
+                <dict>
+                    <key>value</key>
+                    <string>0.000000</string>
+                </dict>
+                <key>Friction</key>
+                <dict>
+                    <key>value</key>
+                    <string>0.500000</string>
+                </dict>
+                <key>Character Friction</key>
+                <dict>
+                    <key>value</key>
+                    <string>{1.000,1.000}</string>
+                </dict>
+                <key>Velocity Scale</key>
+                <dict>
+                    <key>value</key>
+                    <string>0.800000</string>
+                </dict>
+                <key>Rotation Scale</key>
+                <dict>
+                    <key>value</key>
+                    <string>0.500000</string>
+                </dict>
+                <key>Gravity</key>
+                <dict>
+                    <key>value</key>
+                    <string>{0.000,0.000}</string>
+                </dict>
+                <key>lastIdNumber</key>
+                <string>5214</string>
+                <key>gameSpeedMin</key>
+                <string>4.000000</string>
+                <key>gameSpeedMax</key>
+                <string>4.000000</string>
+                <key>gameSpeedIncrease</key>
+                <string>0.000000</string>
+                <key>platformSpecificValues</key>
+                <dict>
+                    <key>Apple iOS App Store</key>
+                    <dict>
+                        <key>leadBolt</key>
+                        <string></string>
+                        <key>leaderboardId</key>
+                        <string></string>
+                        <key>bundleID</key>
+                        <string></string>
+                        <key>nameOnDevice</key>
+                        <string></string>
+                        <key>shareMessageTemplate</key>
+                        <string></string>
+                        <key>reviewLink</key>
+                        <string></string>
+                    </dict>
+                    <key>Google Play Store</key>
+                    <dict>
+                        <key>leaderboardId</key>
+                        <string>1.0</string>
+                        <key>googlePlayId</key>
+                        <string></string>
+                        <key>versionCode</key>
+                        <string></string>
+                        <key>bundleID</key>
+                        <string>1.0</string>
+                        <key>nameOnDevice</key>
+                        <string>sdfs</string>
+                        <key>shareMessageTemplate</key>
+                        <string></string>
+                        <key>reviewLink</key>
+                        <string></string>
+                    </dict>
+                    <key>Amazon App Store</key>
+                    <dict>
+                        <key>nameOnDevice</key>
+                        <string></string>
+                        <key>shareMessageTemplate</key>
+                        <string></string>
+                        <key>reviewLink</key>
+                        <string></string>
+                        <key>bundleID</key>
+                        <string>1.0</string>
+                    </dict>
+                </dict>
+                <key>scoreType</key>
+                <string>Coins</string>
+                <key>versionNumber</key>
+                <string>1.0</string>
+                <key>applicationName</key>
+                <string>FIREBIRD</string>
+                <key>comments</key>
+                <string>add comments here</string>
+                <key>resetText</key>
+                <string>Let's play again</string>
+                <key>objectFrameEdgeState_0</key>
+                <string>1</string>
+                <key>objectFrameEdgeState_1</key>
+                <string>1</string>
+                <key>objectFrameEdgeState_2</key>
+                <string>1</string>
+                <key>objectFrameEdgeState_3</key>
+                <string>1</string>
+                <key>objectFrameRect</key>
+                <string>{{0.0000,0.0000},{1.0000,1.0000}}</string>
+                <key>_ibVersion</key>
+                <string>1.1.2</string>
+                <key>t</key>
+                <string>1</string>
+                <key>orientation</key>
+                <string>PTPScreenOrientationLandscape</string>
+                <key>gameplayAngleDirection</key>
+                <string>0</string>
+                <key>moveUpKey</key>
+                <string>16777235</string>
+                <key>moveDownKey</key>
+                <string>16777237</string>
+                <key>moveLeftKey</key>
+                <string>16777234</string>
+                <key>moveRightKey</key>
+                <string>16777236</string>
+                <key>motorCWKey</key>
+                <string>88</string>
+                <key>motorCCWKey</key>
+                <string>90</string>
+                <key>rotateLeftKey</key>
+                <string>44</string>
+                <key>rotateRightKey</key>
+                <string>46</string>
+                <key>shootKey</key>
+                <string>32</string>
+                <key>jumpKey</key>
+                <string>74</string>
+            </dict>
+        </array>
+    </dict>
+</plist>

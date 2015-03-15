@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="1.0"
+      android:versionCode="0"
+      android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21"/>
+
+    <application android:label="@string/app_name"
+        android:icon="@drawable/icon"
+		android:allowBackup="true">
+ 
+
+        <activity android:name=".PTPlayer"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+        <activity android:name="com.revmob.ads.fullscreen.FullscreenActivity" 
+                  android:theme="@android:style/Theme.Translucent"
+                  android:configChanges="keyboardHidden|orientation"> 
+        </activity>
+  
+          <!-- APPLOVIN SDK -->
+        <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
+        <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+        <!-- APPLOVIN SDK -->
+
+         <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name="com.mopub.mobileads.MraidBrowser" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:name="com.google.ads.AdActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:configChanges="orientation|keyboard|keyboardHidden|uiMode|screenLayout|screenSize|smallestScreenSize" />
+        
+        <activity
+             android:name="com.vungle.publisher.FullScreenAdActivity"
+             android:configChanges="keyboardHidden|orientation|screenSize"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+         
+        <service android:name="com.vungle.publisher.VungleService"
+             android:exported="false"/>
+
+        <!-- PlayHaven Activity and Receiver -->
+        <activity android:configChanges="orientation|keyboardHidden|screenSize" android:name="com.playhaven.android.view.FullScreen" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize">
+            <!-- Support FullScreen.createIntent -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <!-- Support Uri.parse -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="localhost" android:pathPattern="/full" android:scheme="playhaven"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.playhaven.android.push.PushReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="com.playhaven.android"/>
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+    <supports-screens android:largeScreens="true"
+                      android:smallScreens="true"
+                      android:anyDensity="true"
+                      android:normalScreens="true"/>
+    
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+</manifest> 
+
